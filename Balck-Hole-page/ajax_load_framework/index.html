@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<title>Vid load Site framework</title>
+<meta content="width=device-width,initial-scale=1.0" name="viewport">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/loader.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+
+</head>
+<body>
+
+<video playsinline autoplay muted loop poster="images/milky-way-poster.jpg" id="bgvid">
+	<source src="vid\MilkyWay 1.mp4" type="video/webm">
+	<source src="vid\MilkyWay 2.webm" type="video/mp4">
+</video>
+
+
+
+<header id="top_header" class="my_header">
+<h1 data="content_home.html">Home</h1>
+<nav id="main_nav" >
+<ul>
+<li><a  id="load_c1" data="content1.html" href="#">Formation</a></li>
+<li ><a id="load_c2" data="content2.html" href="#">Types </a></li>
+<li ><a id="load_c3" data="content3.html" href="#">Inside</a></li>
+<li ><a id="load_c4" data="content4.html"  href="#">Dangers</a></li>
+<li ><a id="load_c5" data="content5.html" href="#">Future</a></li>
+
+
+</ul>
+
+
+</nav>
+
+</header>
+
+<div id="content">
+<!--content loads here-->
+</div>
+<div class="backgroundDiv"></div>
+
+</body>
+</html>
+<script src="js/vid.js"></script>
